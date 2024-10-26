@@ -16,7 +16,7 @@ function handleScroll(event) {
   // Function to get the URL of the next HTML page
   function getNextPage() {
     // Define an array with the filenames of your HTML pages in the desired order
-    const pages = ['onboarding1.1.html', 'features.html', 'purpose.html', 'contact.html'];
+    const pages = ['index.html', 'features.html', 'purpose.html', 'contact.html'];
     // Get the current URL
     const currentUrl = window.location.href;
     // Extract the filename from the URL
@@ -33,7 +33,7 @@ function handleScroll(event) {
   // Function to get the URL of the previous HTML page
   function getPrevPage() {
     // Define an array with the filenames of your HTML pages in the desired order
-    const pages = ['onboarding1.1.html', 'features.html', 'purpose.html', 'contact.html'];
+    const pages = ['index.html', 'features.html', 'purpose.html', 'contact.html'];
     // Get the current URL
     const currentUrl = window.location.href;
     // Extract the filename from the URL
