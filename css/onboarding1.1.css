@@ -1,0 +1,122 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color:#d1c2aa;
+  overflow-y: auto; /* Allow vertical scrolling */
+  overflow:hidden;
+}
+
+
+.text-container {
+  padding: 1.25rem;
+  font-size: 7.375rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  left: 25%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.text-container1 {
+  font-size: 2rem;
+  padding: 1.25rem;
+  color: black;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  left: 22.5%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  height: 12.5rem;
+  width: 37.5rem;
+}
+
+
+.img-container {
+    max-width: 100%;
+    margin-left: 90vh;
+    margin-top: 25vh;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+/*LAPTOP  1600*900*/
+@media(max-width: 1600px){
+  .text-container {
+    font-size: 6vw;
+  }
+  .text-container1 {
+    font-size: 1.7rem;
+    left:25.5%;
+    top:50%;
+    width:36%;
+    border: 3px solid red ;
+  }
+
+  .img-container{
+    width: 20%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 70vh;
+    margin-top: 20vh; 
+    position:fixed;
+  }
+}
+  
+
+
+
+/* HD (1366x768) L*/
+@media (max-width: 1366px) {
+  
+  .text-container {
+      font-size: 6vw;
+  }
+  .text-container1 {
+      font-size: 1.7rem;
+      width: 80%;
+      left:27.2%;
+      top:50%;
+      width:40%;
+      border: 3px solid black;
+  }
+ 
+  .img-container{
+    width: 20%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 70vh;
+    margin-top: 20vh;
+
+    
+  }
+}
+
+
+@media (max-width: 1090px) {
+  
+  .text-container {
+      font-size: 6vw;
+  }
+  .text-container1 {
+      font-size: 1.7rem;
+      width: 80%;
+      left:27.2%;
+      top:53%;
+      width:40%;
+      border: 3px solid blue;
+  }
+ 
+  .img-container{
+    width: 15%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 55vh;
+    margin-top: 20vh;
+
+    
+  }
+}
