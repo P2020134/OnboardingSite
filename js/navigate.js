@@ -4,7 +4,7 @@ function navigateTo(page) {
 
 window.onload = function () {
   document.querySelector('.home').addEventListener('click', function () {
-      navigateTo('onboarding1.1.html');
+      navigateTo('index.html');
   });
 
   document.querySelector('.features').addEventListener('click', function () {
@@ -20,7 +20,7 @@ window.onload = function () {
   });
 
   document.querySelector('.logo-link').addEventListener('click', function () {
-    navigateTo('onboarding1.1.html');
+    navigateTo('index.html');
   });
 
   document.querySelector('.credits').addEventListener('click', function () {
